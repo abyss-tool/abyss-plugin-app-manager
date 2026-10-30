@@ -1,0 +1,19 @@
+{
+  "id": "abyss-plugin-app-manager",
+  "name": "应用管理器",
+  "version": "0.1.0",
+  "minHost": 1,
+  "minApp": "0.1.0",
+  "category": "system",
+  "summary": "应用冻结 / 隐藏 / 强制停止 / 提取安装包 / 图标伪装（pm hide / disable-user / set-component-enabled-setting）。",
+  "icon": "📦",
+  "permissions": [],
+  "entry": "com.abyss.tools.plugin.appmanager.AppManagerPlugin",
+  "repo": "Ultra-Guru/abyss-plugin-app-manager",
+  "patchChannel": "https://raw.githubusercontent.com/Ultra-Guru/abyss-plugin-app-manager/main/patches/index.json",
+  "roadmap": [
+    "v0.2 应用列表与冻结",
+    "v0.3 提取安装包",
+    "v0.4 ActivityAlias 图标伪装"
+  ]
+}
